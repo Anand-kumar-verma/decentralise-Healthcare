@@ -201,6 +201,7 @@ const Healthcare = () => {
       <h1 className="title">HealthCare Application</h1>
       {account && <p className="account-info">Connected Account: {account}</p>}
       {isOwner && <p className="owner-info">You are the contract owner</p>}
+      {<p className="owner-info">Contract Address: 0x6ed15aa6724bf089edc66213ef3e43b0828e39cb</p>}
 
       <div className="form-section">
         <h2>Fetch Patient Records</h2>
